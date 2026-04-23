@@ -4,7 +4,7 @@
 [![Blender](https://img.shields.io/badge/Blender-3.0+-orange.svg)](https://www.blender.org/)
 [![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.0+-blue.svg)](https://www.unrealengine.com/)
 
-> **一键同步 Blender 场景到 Unreal Engine 5，实现无缝实时工作流**
+> **一键桥接 Blender 与 Unreal Engine 5，实现自动化的 Datasmith 工作流**
 
 作者：**季鹋檀**
 
@@ -15,7 +15,7 @@
 - 🚀 **一键导出** - 静默导出 Datasmith 文件，无需弹窗确认
 - 📁 **智能命名** - 自动根据集合名称命名导出文件
 - 🎯 **集合导出** - 支持导出整个集合及其子集合
-- 🔄 **实时同步** - 导出后自动通知 UE5 重新导入
+- 🔄 **自动同步** - 导出后自动通知 UE5 重新导入，无需手动操作
 - 🎬 **动画支持** - 导出对象变换动画
 - 🔧 **修改器应用** - 可选导出前自动应用修改器
 - 📂 **快速访问** - 一键打开导出目录
@@ -62,7 +62,7 @@
 2. 勾选 **导出整个集合**
 3. 点击 **一键导出** - 将自动导出整个集合，文件名使用集合名
 
-### UE5 实时同步
+### UE5 自动同步
 
 1. 勾选 **通知 UE5**
 2. 设置 UE5 监听地址（默认 `127.0.0.1:19842`）
